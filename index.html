@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HighTechStore</title>
+    <link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGKc4eTIKgagvWst4r81fSmx80E-yp1otLz2BebheJLdiopefXRxxrcdPjGchhjgQSx08&usqp=CAU">
+<link rel="stylesheet" href="style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <!--***************navbar************************* -->
+  <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+    <div class="container-fluid">
+        <img height= 50px; width=80px; style="border-radius: 10px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRax2soVCD_hcj0xSLEJ1wd-4mUyJmxpNHQ9w&s" alt="HighTechStore">
+     <a class="navbar-brand" href="#">HighTechStore</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Stock</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              modèle disponible
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">iphone-15-pro-max</a></li>
+              <li><a class="dropdown-item" href="#">Galaxy-S24-Ultra</a></li>
+              <li><a class="dropdown-item" href="#">Redmi-13-pro-plus-5G</a></li>
+            </ul>
+          </li>
+        </ul>
+        <h5 style="color: white; margin-right: 12px;" class="nav-item" >Total Price: </h5>
+      <h2 style="color: white;" >$ </h2>
+      <h2 style="color: white; margin-right: 24px;" id="total-price" >0</h2>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!-- ************************Cards****************************** -->
+  <div id="Cards">
+<!-- *****card1********* -->
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img width="200px"; src="images/photos/iphone-15-pro.webp" class="img-fluid rounded-start" alt="Iphone-15-pro-max">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Iphone-15-pro-max</h5>
+          <p class="card-text">L’écran de l’iPhone 15 Pro Max a des angles arrondis qui suivent la ligne élégante de l’appareil et s’inscrivent dans un rectangle standard. Si l’on mesure ce rectangle, l’écran affiche une diagonale de 6,69 pouces (la zone d’affichage réelle est moindre).</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
+          <h2 style="text-align: center;">$ <span class="unit-price">1200</span></h2>
+          <div style="display: flex; justify-content: center; font-size: 24px; align-items: center;">                  
+                 <i class="fa-solid fa-circle-minus"></i>
+                 <p style="margin: 0px 9px" class="qte">0</p>
+                 <i class="fa-solid fa-circle-plus"></i>
+        </div>
+      </div>
+      <div style="display: flex; justify-content:space-between; font-size: 24px; align-items:center;margin: 10px 20px;">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-regular fa-trash-can"></i>
+      </div>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+
+  <!-- *************Card2*************** -->
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img width="200px"; src="images/photos/Galaxy-S24-Ultra.webp" class="img-fluid rounded-start" alt="Galaxy-S24-Ultra">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Galaxy-S24-Ultra</h5>
+          <p class="card-text">Ne laissez pas les distances éloignées vous embêter. Vous pouvez maintenant obtenir des gros plans x2, x3, x5 et même x10 avec un zoom optique ou de qualité optique.12,15,16 De plus, le nouveau et puissant Tele OIS est plus large qu’auparavant pour stabiliser l’image et réduire le flou du zoom.9</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
+          <h2 style="text-align: center;">$ <span class="unit-price">1050</span></h2>
+          <div style="display: flex; justify-content: center; font-size: 24px; align-items: center;">                  
+                 <i class="fa-solid fa-circle-minus"></i>
+                 <p style="margin: 0px 9px" class="qte">0</p>
+                 <i class="fa-solid fa-circle-plus"></i>
+        </div>
+      </div>
+      <div style="display: flex; justify-content:space-between; font-size: 24px; align-items:center;margin: 10px 20px;">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-regular fa-trash-can"></i>
+      </div>
+      </div>
+    </div>
+  </div>
+ 
+
+  <!-- **********************card3************************** -->
+  <div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img width="200px"; src="images/photos/redmi 13 pro plus.webp" class="img-fluid rounded-start" alt="Redmi-13-pro-plus-5G">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Redmi-13-pro-plus-5G</h5>
+          <p class="card-text">Le Redmi Note 13 Pro+ 5G est équipé d'une caméra principale de 200 MP haut de gamme et prend en charge la technologie Super QPD pour une mise au point plus rapide et plus précise. La puissante combinaison de la technologie OIS et EIS améliore considérablement les performances de stabilisation. Grâce aux capacités visuelles améliorées de Xiaomi, vous pourrez multiplier les clichés de haute qualité.</p>
+          <p class="card-text"><small class="text-body-secondary"></small></p>
+          <h2 style="text-align: center;">$ <span class="unit-price">450</span></h2>
+          <div style="display: flex; justify-content: center; font-size: 24px; align-items: center;">                  
+                 <i class="fa-solid fa-circle-minus"></i>
+                 <p style="margin: 0px 9px" class="qte">0</p>
+                 <i class="fa-solid fa-circle-plus"></i>
+        </div>
+      </div>
+      <div style="display: flex; justify-content:space-between; font-size: 24px; align-items:center;margin: 10px 20px;">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-regular fa-trash-can"></i>
+      </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<!-- *******************contacter Nous************** -->
+  <h2 style="font-size: 15px; font-weight: bold; color: #010b10; margin-top: 27px;text-align: center;">CONTACTEZ NOUS: 98 987 987 </h2>
+
+<!-- *******************copyright**************** -->
+  <small class="copyright"><span>Copyright © 2024-present CherniAymane, Inc. All rights reserved.</span></small>
+  
+
+
+  <script src="https://kit.fontawesome.com/71f7a85f14.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script src="/script.js"></script>
+</body>
+</html>

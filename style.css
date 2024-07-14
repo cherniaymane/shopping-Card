@@ -1,0 +1,52 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+
+#Cards{
+display: flex; justify-content: space-around; flex-wrap: wrap;
+margin-top: 10px;
+
+}
+
+.fa-heart:hover{
+    color: red;}
+
+.fa-trash-can:hover{ 
+    color:rgb(86, 252, 14);
+}    
+    i{
+        cursor: pointer;
+    }
+
+
+    @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+            transform: translateY(0);
+        }
+        40% {
+            transform: translateY(-20px);
+        }
+        60% {
+            transform: translateY(-10px);
+        }
+    }
+    .bounce {
+        animation: bounce 0.5s;
+    }
+
+.raw{
+display: flex;flex-wrap: wrap; margin:0px -15px;
+
+}
+
+    .copyright {
+        background-color: #0e0f0e;
+        color: #fff;
+        box-sizing: border-box;
+        display: block;
+        padding: 10px;
+        text-align: center;
+    }
+
+
+  
